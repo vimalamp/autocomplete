@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { AutocompleteForm } from './AutocompleteForm';
 
 const colorsList = [
   "AliceBlue",
@@ -153,8 +154,8 @@ const colorsList = [
 ];
 
 ReactDOM.render(
-  {
-    /* <YourComponentGoesHere /> */
-  },
+  <React.StrictMode>
+      <AutocompleteForm colList={colorsList}/>
+  </React.StrictMode>,
   document.getElementById("root")
 );

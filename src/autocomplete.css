@@ -1,0 +1,47 @@
+.autocomplete-header {
+    text-align: center; 
+}
+form {
+    width: 25em;
+    margin:  0 auto; 
+}
+.input-wrapper {
+    border: 1px solid darkgray;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.3em;
+    padding: 0.2em 0.5em;
+  }
+.input-wrapper input {
+    border: none;
+  }
+input:focus {
+    outline: none;
+}
+.clear-search-btn {
+    cursor: pointer;
+    color: darkgray;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    text-align: right;
+  }
+.clear-search-btn:focus {
+    outline: none;
+}
+.matches {
+    padding: 0.2em 0.5em;
+    margin: 10px 20px 0px 0px;
+    width: 98%;
+}
+.match {
+    text-align: left;
+    padding: 0.05em;
+}
+.match:hover{
+    background-color: lightgray;
+}
+.match:focus{
+    background-color: lightgray;
+    outline: none;
+}
